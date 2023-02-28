@@ -85,6 +85,7 @@ function search(line, data) {
             i = i - 1;
         }
     }
+
 //price
     if (fields.price !== undefined) {
         for (let i = 0; i < result.length; i++) {
