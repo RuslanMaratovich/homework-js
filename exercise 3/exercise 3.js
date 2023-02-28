@@ -11,7 +11,6 @@
 “name-starts-fd&quantity=5”
 На выходе возвращает массив, только с подходящими объектами
 возможны (contains, starts, ends для строковых и <, =, >, <=, >= для числовых*/
-
 const Product = require('./product.js')
 let product = [];
 product.push(new Product("kiwi", 10, 1, "green"));
