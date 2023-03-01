@@ -35,7 +35,7 @@ function wordCount(line) {
 
 function uniqueWordCount(line) {
     let bd = line.replace(/[^a-zа-яё\s]/gi, '').toLowerCase(); //Оставляем только слова с нижнем регистром
-    bd = bd.replace(/\s+/g, ' '); //убираем лишнии пробелы
+    bd = bd.replace(/\s+/g, ' '); //убираем лишние пробелы
     let arr = (bd.split(' ')) //помещаем в массив слова
     let result = {};
     for (let i = 0; i < arr.length; ++i) {
